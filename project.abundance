@@ -1,15 +1,38 @@
 {
-    "atomType": "Molecule",
-    "name": "test-project",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "61847d7c-6653-4b96-9597-a82bcfca125d",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "test-project",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "61847d7c-6653-4b96-9597-a82bcfca125d",
+  "ioValues": [
+    {
+      "name": "Input (1)",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "7f6cb5e7-7a22-4c1e-a685-c0273ed5aac5",
+      "ioValues": []
+    },
+    {
+      "atomType": "Input",
+      "name": "Input (1)",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "fbac0ea6-a5bd-4db4-b1bb-de866fd9950f",
+      "ioValues": [],
+      "type": "number"
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
